@@ -17,6 +17,8 @@ def millas_a_km(millas):
 def kg_a_libras(kg):
     return kg * 2.20462
 
+def metros_a_pies(m):
+    return m * 3.28084
 
 if __name__ == "__main__":
     print("25 °C =", celsius_a_fahrenheit(25), "°F")

@@ -5,6 +5,7 @@ from Conversion import (
     km_a_millas,
     millas_a_km,
     kg_a_libras,
+    metros_a_pies,
 )
 
 
@@ -28,3 +29,6 @@ def test_millas_a_km():
 
 def test_kg_a_libras():
     assert kg_a_libras(1) == pytest.approx(2.20462)
+
+def test_metros_a_pies():
+    assert metros_a_pies(1) == pytest.approx(3.28084)
